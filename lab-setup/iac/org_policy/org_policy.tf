@@ -30,6 +30,7 @@ module "activate_service_apis" {
   enable_apis                 = true
 
   activate_apis = [
+    "iam.googleapis.com"
     "compute.googleapis.com", 
     "dataproc.googleapis.com",
     "bigqueryconnection.googleapis.com",
@@ -46,7 +47,6 @@ module "activate_service_apis" {
     "artifactregistry.googleapis.com",
     "metastore.googleapis.com",
     "servicenetworking.googleapis.com" 
-
     ]
 
   disable_services_on_destroy = false
