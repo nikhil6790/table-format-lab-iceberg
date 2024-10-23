@@ -40,7 +40,7 @@ jobs:
         uses: tj-actions/changed-files@v45
         with:
           files: |
-            sub/*.csv
+            test/sub/*.csv
 
 
       - name: List all changed files
