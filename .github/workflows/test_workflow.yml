@@ -19,7 +19,7 @@ on:
 
 defaults:
     run: 
-        working_directory : "test"
+        working-directory : "test"
         shell: bash
 
 
